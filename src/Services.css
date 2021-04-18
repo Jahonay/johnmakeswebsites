@@ -73,3 +73,8 @@ ul img{
     border-radius: 20%;
     box-shadow: 4px 4px 10px rgba(0,0,0, 40%);
 }
+
+.type{
+    font-family:montserrat, sans-serif;
+    font-size:1em;
+}

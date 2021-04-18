@@ -29,16 +29,16 @@ function Services() {
                         <h2 className='item2'>
                             Website Design
                         </h2>
-                       <Typewriter onInit = {(typewriter) =>{
-                           typewriter
-                           .typeString("HTTPS://www.")
-                           .pauseFor(2000)
-                           .deleteAll()
-                           .typeString("HTTPS://www.new-startup.com")
-                           .deleteAll()
-                           .start();
-                            }}
-                 />
+                       
+
+<Typewriter
+  options={{
+    strings: ['https://www.my-site.com', 'www.another-site.org'],
+    autoStart: true,
+    delay:200,
+    loop: true,
+  }}
+/>
                     </li>
                     <li className='serv-list'>
                         <h2 className='item3'>
