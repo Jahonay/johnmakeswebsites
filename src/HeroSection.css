@@ -7,7 +7,9 @@ video {
   }
 
 .hero-container{
-    background:url('./img/hero.svg') center center/cover no-repeat;
+   /* background:url('./img/hero.svg') center center/cover no-repeat;
+    */
+    background-color: #1c1c1c;
     height: 100vh;
     width:100%;
     display: flex;
