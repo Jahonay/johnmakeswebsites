@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.css';
 import './Services.css';
+import Typewriter from 'typewriter-effect';
+
+
 
 function Services() {
+
     return(
         <>
          <div className='services'>
@@ -25,7 +29,16 @@ function Services() {
                         <h2 className='item2'>
                             Website Design
                         </h2>
-                        <h2>HTTPS://</h2>
+                       <Typewriter onInit = {(typewriter) =>{
+                           typewriter
+                           .typeString("HTTPS://www.")
+                           .pauseFor(2000)
+                           .deleteAll()
+                           .typeString("HTTPS://www.new-startup.com")
+                           .deleteAll()
+                           .start();
+                            }}
+                 />
                     </li>
                     <li className='serv-list'>
                         <h2 className='item3'>
