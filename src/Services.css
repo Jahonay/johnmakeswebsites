@@ -25,7 +25,7 @@
 }
 
 ul{
-    display: inline-block;
+    display: block;
     position: relative;
     justify-items: center;
     margin:0px auto;
@@ -38,11 +38,15 @@ li{
     margin:auto;
     justify-items: center;
     margin:auto;
+    text-align: center;
     
 }
 
 .item1, .item2, .item3 {
     display:inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin:0px auto;
 
   
 }
@@ -54,8 +58,15 @@ li{
 ul img{
     height: 10rem;
     display:inline-flex;
-    margin-top:15px;
+    margin-top:15px auto;
 
+}
+.serv-list h2{
+    text-align: center;
+    width:100%;
+    position:relative;
+    display:inline;
+    margin:auto;
 }
 
 .label{
@@ -69,7 +80,7 @@ ul img{
     height:20rem;
     text-align: center;
     margin:2vh 2vw 2vh 2vh ;
-    padding:6vh;
+    padding:5vh;
     position: relative;
     width:25rem;
     background-color: #444444;

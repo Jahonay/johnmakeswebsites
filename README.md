@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+PORTFOLIO WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an early project for me working with Github, React.Js, and Netlify. I want to show off a modest understanding of how github works, how it can used to host websites through netlify, and further how I know enough code to get a live static site active without using templates or page builders. 
 
-## Available Scripts
+This project employs typewriter-effect, for a simple and clean animation in the services section. 
 
-In the project directory, you can run:
+I designed this site mobile first, using figma and wanted to keep the hero section mostly blank so that I can return to it later and add either animations or a video or slideshow.
 
-### `npm start`
+For this project I was inspired by a number of youtube channels and videos. https://www.youtube.com/watch?v=I2UBjN5ER4s&list=FLvtWnCRl1B1-o9kl06Hl_kw&index=9. This video was probably the most helpful for this project, and honestly the inspiration for it. I followed along and copied this project to start. Later, I took what I learned from it to design my own project from scratch, trying not to copy anything directly, but instead use it as an inspiration for what I would later design. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://www.youtube.com/watch?v=8gNrZ4lAnAw
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This video was also a great inspiration for me. Particularly with making me think about adding in a border radius to a specific corner. I very much appreciated that effect. 
 
-### `npm test`
+In this project so far, I've struggled a tiny bit trying to get netlify to install the typewriter effect, and it was pretty easy to just add it to the dependencies in the json file. I also struggled a lot with the services flex container. It was a challenge getting all the list items to sit on a level line and center themselves on the page. The issue I ran into was (I think) not having a position set to relative. And/or having something set to width:100% that shouldn't have been. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lasty, the cards in the service section are not finished feeling. This project is still a work in progress. I will hopefully have it more polished in the coming days or weeks. 
