@@ -29,7 +29,7 @@ function Services() {
                         <h2 className='item2'>
                             Website Design
                         </h2>
-                       
+                <div className='type'>      
 
 <Typewriter
   options={{
@@ -39,6 +39,7 @@ function Services() {
     loop: true,
   }}
 />
+</div>
                     </li>
                     <li className='serv-list'>
                         <h2 className='item3'>
