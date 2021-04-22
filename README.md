@@ -1,6 +1,6 @@
 PORTFOLIO WEBSITE
 
-This is a personal project for me with Github, React.Js, and Netlify. I want to show off a modest understanding of how github works, how it can used to host websites through netlify, and further how I know enough code to get a live static site active without using templates or page builders. Netlify site is john-makes-websites.netlify.app
+This is an early project for me working with Github, React.Js, and Netlify. I want to show off a modest understanding of how github works, how it can used to host websites through netlify, and further how I know enough code to get a live static site active without using templates or page builders. 
 
 This project employs typewriter-effect, for a simple and clean animation in the services section. 
 

@@ -21,7 +21,7 @@ function Services() {
                         <h2 className='item1'>
                             Logo Design
                         </h2>
-                        <img src='./img/s-logo.svg' alt='logo'>
+                        <img src='./img/gcs.svg' alt='logo'>
                         </img>
                     </li>
                     <li className='serv-list'>
