@@ -53,3 +53,8 @@
 .three-coll-cont img {
     width:20rem;
 }
+
+.three-coll a {
+    color:white;
+    font-weight:bold;
+}
