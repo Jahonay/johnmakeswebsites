@@ -1,0 +1,12 @@
+.contact{
+    width:100%;
+    background-color: black;
+}
+.contact-wrap{
+    width:100;
+    background-color: white;
+    border-top-right-radius: 3rem;
+    text-align: center;
+    align-items:center;
+    justify-items: center;
+}
