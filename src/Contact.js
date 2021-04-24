@@ -2,6 +2,7 @@ import React from 'react';
 //import Form from 'react-bootstrap/Form';
 import './Contact.css';
 import './App.css';
+import {Button} from 'reactstrap';
 
 function Contact() {
   
@@ -28,7 +29,8 @@ function Contact() {
                             Message:
                             <textarea required="true" name="message" id="message" rows='10' />
                         </label>
-                            <input type="submit" class="button"></input>
+                        <br/>
+                            <Button class="button" color='dark' type='submit' size='lrg'>SUBMIT</Button>
                         
                         </form>
                     </div>

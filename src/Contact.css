@@ -63,3 +63,8 @@ input[type=submit]{
     overflow:scroll;
     word-wrap:break-word
 }
+
+.button{
+    display:block;
+    text-align:center;
+}

@@ -27,7 +27,7 @@
     padding-bottom:4rem;
 }
 
-ul{
+.service-items ul{
     display: inline-flex;
     position: relative;
     flex-wrap: wrap;
