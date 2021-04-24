@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 //import Form from 'react-bootstrap/Form';
-import './Contact.css'
-import './App.css'
+import './Contact.css';
+import './App.css';
 
 function Contact() {
   
@@ -10,7 +10,7 @@ function Contact() {
             <div className='contact'>
                 <div className='contact-wrap'>
 
-                    <h2>Contact</h2>
+                    <h2 className="title">Contact</h2>
 
                     <div className='form-wrap'>
                     <form name="contact" method="POST" data-netlify="true">
@@ -26,7 +26,7 @@ function Contact() {
                         </label>
                         <label>
                             Message:
-                            <input type="text" required="true" name="message" id="message"></input>
+                            <textarea required="true" name="message" id="message" rows='10' />
                         </label>
                             <input type="submit" class="button"></input>
                         
