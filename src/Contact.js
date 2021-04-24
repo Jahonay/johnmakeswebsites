@@ -28,7 +28,7 @@ function Contact() {
                             Message:
                             <input type="text" required="true" name="message" id="message"></input>
                         </label>
-                            <input type="submit" value='Send Message' class="button"></input>
+                            <input type="submit" class="button"></input>
                         
                         </form>
                     </div>
