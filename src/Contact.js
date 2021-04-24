@@ -13,7 +13,7 @@ function Contact() {
                     <h2>Contact</h2>
 
                     <div className='form-wrap'>
-                    <form action="POST" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true">
                    
                         <label>
                             Name:
