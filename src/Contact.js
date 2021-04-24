@@ -28,15 +28,11 @@ function Contact() {
                             <input type="email" required="true" name="email" id="email"></input>
                         </label>
                         <label>
-                            <h5>Message:</h5>
+                            Message:
                             <input type="text" required="true" name="message" id="message"></input>
                         </label>
-                            <div className='recaptcha'>
-                                <div data-netlify-recaptcha="true"></div>
-                            </div>
-                        <label>
-                            <input type="submit" value='submit'></input>
-                        </label>
+                            <input type="submit" value='Send Message' class="button"></input>
+                        
                         </form>
                     </div>
 
