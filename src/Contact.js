@@ -4,22 +4,7 @@ import './Contact.css'
 import './App.css'
 
 function Contact() {
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('pizzaOrder');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
-
-
-document.querySelector("form").addEventListener("submit", handleSubmit);
-
+  
     return (    
         <>
             <div className='contact'>
@@ -28,7 +13,8 @@ document.querySelector("form").addEventListener("submit", handleSubmit);
                     <h2>Contact</h2>
 
                     <div className='form-wrap'>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form id='contact' name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" />
                         <div className='name'>
                             <h5>Name:</h5>
                             <input type="text" required="true" id="name"></input>
@@ -45,8 +31,8 @@ document.querySelector("form").addEventListener("submit", handleSubmit);
                             <h5>Message:</h5>
                             <input type="text" required="true" id="message"></input>
                         </div>
-                        <div className='submit'>
-                            <input type="submit" value='submit' id="submit"></input>
+                        <div  className='submit'>
+                            <input type="submit" value='submit'></input>
                         </div>
                         </form>
                     </div>
