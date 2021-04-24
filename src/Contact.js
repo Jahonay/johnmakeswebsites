@@ -14,15 +14,12 @@ function Contact() {
 
                     <div className='form-wrap'>
                     <form name="contact" method="POST" data-netlify="true">
-                   
+                    <input type="hidden" name="form-name" value="contact" />
                         <label>
                             Name:
                             <input type="text" required="true" name="name" id="name"></input>
                             </label>
-                        <label>
-                            Phone Number:
-                            <input type="tel" id="phone" name="phone"></input>
-                        </label>                        
+                                   
                         <label>
                             Email:
                             <input type="email" required="true" name="email" id="email"></input>
