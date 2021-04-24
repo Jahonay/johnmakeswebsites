@@ -10,3 +10,17 @@
     align-items:center;
     justify-items: center;
 }
+
+.title{
+    padding:3rem 0 3rem 0;
+    font-size: 2rem;
+}
+
+.form-wrap{
+    display:flex;
+    flex-direction:column;
+}
+.form-wrap *{
+    justify-items: center;
+    margin:0px auto;
+}
