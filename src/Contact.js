@@ -14,26 +14,26 @@ function Contact() {
 
                     <div className='form-wrap'>
                     <form id='contact' name="contact" method="POST" data-netlify="true">
-                    <input type="hidden" name="form-name" value="contact" />
-                        <div className='name'>
-                            <h5>Name:</h5>
+                   
+                        <label>
+                            Name:
                             <input type="text" required="true" id="name"></input>
-                        </div>
-                        <div className='phone'>
-                            <h5>Phone Number:</h5>
+                            </label>
+                        <label>
+                            Phone Number:
                             <input type="tel" id="phone"></input>
-                        </div>
-                        <div className='email'>
-                            <h5>Email:</h5>
+                        </label>                        
+                        <label>
+                            Email:
                             <input type="email" required="true" id="email"></input>
-                        </div>
-                        <div className='message'>
+                        </label>
+                        <label>
                             <h5>Message:</h5>
                             <input type="text" required="true" id="message"></input>
-                        </div>
-                        <div  className='submit'>
+                        </label>
+                        <label>
                             <input type="submit" value='submit'></input>
-                        </div>
+                        </label>
                         </form>
                     </div>
 
