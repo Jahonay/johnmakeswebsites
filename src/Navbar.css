@@ -16,7 +16,7 @@
     align-items: center;
     height: 100px;
     max-width: 1500px;
-    margin: 0 3rem 0 3rem auto;
+    margin: auto;
 }
 
 .navbar-logo{
@@ -25,14 +25,21 @@
     vertical-align: middle;
 }
 
-.logo-container{
+.navbar-container a{
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+.navbar-container .navbar-logo div.logo-container{
     align-items:center;
     justify-content: center;
     margin:auto;
+    font-style:none;
     display:grid;
-    margin-top: 1rem;
     grid-template-columns: [row1-start]100% auto;
     font-size: 12px;
+    font-weight:bold;
     color:white;
     grid-gap:4px;
     grid-template-rows: [row1-start]50% auto [row1-end row2start] 50% auto;
@@ -40,13 +47,17 @@
     width: 200px;
 }
 
-.logo{
+.navbar-logo .logo-container h1.logo{
+    text-decoration: none;
     grid-column-start: 1;
+    font-size:1rem;
     grid-row-start:1;
     display: block;
 }
-.web{
-    letter-spacing: 4px;
+.navbar-logo .logo-container h1.web{
+    text-decoration: none;
+    letter-spacing: 3.5px;
+    font-size: 1rem;
     grid-column-start: 1;
     grid-row-start:2;
 }
