@@ -33,6 +33,11 @@ function Contact() {
                             <Button class="button" color='dark' type='submit' size='lrg'>SUBMIT</Button>
                         
                         </form>
+
+                        <div className="info">
+                            <h4>Phone: 617-947-8614</h4>
+                            <h4>Email: xjmackey@gmail.com</h4>
+                        </div>
                     </div>
 
                 </div>

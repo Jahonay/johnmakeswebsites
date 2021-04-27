@@ -40,7 +40,7 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <HashLink smooth to='/#home' className='nav-links' onClick={closeMobileMenu}>
+                        <HashLink smooth to='/#' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </HashLink>
                     </li>

@@ -1,8 +1,7 @@
-import React from 'react';
+import {React, } from 'react';
 import './App.css';
 import './HeroSection.css';
-import {Button} from 'reactstrap';
-
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -15,7 +14,8 @@ function HeroSection(){
             <div className='hero-wrapper'>
             
                 <h1>Are you looking for a website designer?</h1>
-                <Button outline color="dark" size='lg'>Lets Connect</Button>
+                <HashLink className='hash' smooth to="/#contact">Lets Connect</HashLink>
+               
             </div>
         </div>
         

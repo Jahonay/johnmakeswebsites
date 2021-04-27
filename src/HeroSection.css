@@ -27,6 +27,23 @@ video {
     margin:0 auto;
 }
 
+.hash{
+  height:4rem;
+  width:10rem;
+  color:#1c1c1c;
+  font-weight:bold;
+  font-size:large;
+  display: flex;
+  border:5px solid #1c1c1c;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
 .hero-container > h1{
     color:#1c1c1c;
     font-size: 3em;

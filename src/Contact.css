@@ -30,23 +30,23 @@
     padding-right: 1rem;
 }
 
-label input[type=text] ,input[type=email], textarea{
+ input[type=text] ,input[type=email], textarea{
     position:relative;
     flex-wrap: wrap;
     display: inline-block;
-    margin:0rem 3rem 2rem 1rem;
+    margin:0rem 0 2rem 1rem;
     border-radius:7px;
     justify-content: flex-start;
     vertical-align: top;
     border:none;
-    box-shadow: inset 0px 0px 5px 5px lightgray;
+    box-shadow: inset 0px 0px 3px 3px lightgray;
 
 }
 label{
     display:inline-block;
     justify-content: flex-start;
     margin-top:1rem;
-    padding-right:1rem;
+    padding-right:0;
 }
 input[type=submit]{
     display:block;
@@ -67,4 +67,18 @@ input[type=submit]{
 .button{
     display:block;
     text-align:center;
+}
+
+.info{
+    margin-top:4rem;
+}
+
+@media screen and (max-width: 960px){
+
+    textarea{
+        display:inline-block;
+        justify-content: flex-start;
+        margin-left:1rem;
+    }
+    
 }
