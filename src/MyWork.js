@@ -6,10 +6,10 @@ function MyWork() {
 
     return (
         <>
-            <div className="my-work">
+            <div id="my-work" className="my-work">
                 <div className='my-work-cont'>
 
-                <h2 className= 'title'>My Work</h2>
+                <h2 className= 'title'><a href id='my-work'>My Work</a></h2>
 
 
                 <div className="three-coll">

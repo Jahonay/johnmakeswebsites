@@ -8,10 +8,10 @@ function Contact() {
   
     return (    
         <>
-            <div className='contact'>
+            <div id="contact" className='contact'>
                 <div className='contact-wrap'>
 
-                    <h2 className="title">Contact</h2>
+                    <h2 className="title"><a href id='contact' >Contact</a></h2>
 
                     <div className='form-wrap'>
                     <form name="contact" method="POST" data-netlify="true">
@@ -26,7 +26,7 @@ function Contact() {
                             <input type="email" required="true" name="email" id="email"></input>
                         </label>
                         <label>
-                            Message:
+                            Message: 
                             <textarea required="true" name="message" id="message" rows='10' />
                         </label>
                         <br/>

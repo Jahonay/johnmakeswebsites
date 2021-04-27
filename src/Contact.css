@@ -34,7 +34,7 @@ label input[type=text] ,input[type=email], textarea{
     position:relative;
     flex-wrap: wrap;
     display: inline-block;
-    margin:0rem 3rem 2rem 0rem auto;
+    margin:0rem 3rem 2rem 1rem;
     border-radius:7px;
     justify-content: flex-start;
     vertical-align: top;

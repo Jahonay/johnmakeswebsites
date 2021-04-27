@@ -57,17 +57,17 @@ h1.logo{
     font-size: 1rem;
     grid-column-start: 1;
     grid-row-start:2;
+    color:cornflowerblue;
 }
 ul.nav-menu{
 
-    display:grid;
-    grid-template-columns: 2;
-    grid-gap:10px;
+    display:flex;
+    flex-direction: row;
     list-style: none;
+    margin-left:15rem;
     text-align: center;
     width: 60vw;
-    justify-content: end;
-    margin-right:2rem;
+    justify-content: flex-end;
 }
 
 .fa-typo3{
@@ -78,8 +78,11 @@ ul.nav-menu{
 a.nav-links {
     color:rgb(255, 255, 255);
     display: flex;
-    align-items: center;
+    align-items:flex-end;
+    justify-content: flex-end;    
     text-decoration: none;
+    font-weight: bold;
+    margin:0;
     padding: 0.5rem 1rem;
     height: 100%;
 }
@@ -113,9 +116,15 @@ a.nav-links:hover {
       height: 90vh;
       position: absolute;
       top: 80px;
-      left: -100%;
+      left: -120%;
       opacity: 1;
       transition: all 0.5s ease;
+    }
+
+    ul.nav-menu{
+      flex-direction: column;
+      margin-left:0;
+      width:100vw;
     }
   
     .nav-menu.active {
@@ -141,8 +150,8 @@ a.nav-links:hover {
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 1rem;
+      left: 1rem;
     }
   
     .menu-icon {
@@ -150,7 +159,7 @@ a.nav-links:hover {
       position: absolute;
       top: 0;
       right: 0;
-      transform: translate(-100%, 60%);
+      transform: translate(-120%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
     }

@@ -9,10 +9,10 @@ function Services() {
 
     return(
         <>
-         <div className='services'>
+         <div id="services" className='services'>
         <div className='services-container'>
             <h1 className='label'>
-                Services
+              <a href id='services' > Services</a>
             </h1>
             
         <div className='service-items'>

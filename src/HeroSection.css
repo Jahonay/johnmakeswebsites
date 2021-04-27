@@ -14,9 +14,17 @@ video {
     width:100%;
     display: flex;
     flex-direction: column;
+    object-fit: contain;
+}
+
+.hero-wrapper{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    object-fit: contain;
+    margin:0 auto;
 }
 
 .hero-container > h1{
